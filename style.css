@@ -23,7 +23,7 @@ h1 {
 	border-width: 1px;
 	border-color: lightgray;
 	padding: 15pt;
-	margin: 15pt;
+	margin: 10pt;
 }
 
 
@@ -52,13 +52,13 @@ h1 {
 @media (min-width: 541px) and (max-width: 960px) {
 	.kontejner {
         display: flex;
-		flex-direction: row;
 		flex-wrap: wrap;
     }
 
 	.osoba {
 		display: flex;
 		flex-direction: row;
+		width: 45vw;
 	}
 
 	.texty{
@@ -69,8 +69,6 @@ h1 {
 @media (min-width: 961px) {
     .kontejner {
 		display: flex;
-		flex-direction: row;
-		flex-wrap: wrap;
     }
 
 	.obrazek {
